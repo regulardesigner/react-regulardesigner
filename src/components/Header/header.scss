@@ -1,0 +1,21 @@
+header {
+  font-family: 'Gochi Hand', cursive;
+  h1 {
+    text-transform: uppercase;
+    color: indigo;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  nav {
+    margin: 1rem 0;
+    a {
+      margin: 5px 10px;
+      color: darkgoldenrod;
+      text-decoration: underline;
+      font-size: 1em;
+      &:hover {
+        color: pink;
+      }
+    }
+  }
+}

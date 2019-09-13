@@ -1,11 +1,12 @@
 // == Import : npm
 import React from 'react';
 
-
 // == Import : local
 import Header from 'src/components/Header';
+import Footer from 'src/components/Footer';
 
-import categories from 'src/data/categories'
+// les datas des catégries que j'importe et que j'utilise dans mon menu
+import categories from 'src/data/categories';
 
 import './app.scss';
 
@@ -13,9 +14,8 @@ import './app.scss';
 const App = () => (
   <div id="app">
     <Header categories={categories} />
-    <div>Mon super menu</div>
     <div>mon super contenu</div>
-    <div>Mon super footer</div>
+    <Footer />
   </div>
 );
 
