@@ -1,18 +1,24 @@
+@import 'src/styles/vars';
+
 header {
-  font-family: 'Gochi Hand', cursive;
+  font-family: $font-heading;
   h1 {
     text-transform: uppercase;
-    color: indigo;
-    font-size: 2em;
+    color: rgb(187, 169, 201);
+    font-size: 5em;
     font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px
   }
   nav {
-    margin: 1rem 0;
+    margin: 1rem 0 3rem 0;
     a {
+      font-family: $font-labeur;
       margin: 5px 10px;
       color: darkgoldenrod;
       text-decoration: underline;
-      font-size: 1em;
+      font-size: .8em;
+      font-weight: bold;
       &:hover {
         color: pink;
       }

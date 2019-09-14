@@ -1,7 +1,9 @@
+@import 'src/styles/vars';
+
 footer {
   background-color: black;
   color: bisque;
-  font-family: 'Gochi Hand', cursive;
+  font-family: $font-heading;
   font-size: .8em;
   padding: 3rem;
 }

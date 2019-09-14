@@ -1,0 +1,60 @@
+@import 'src/styles/vars';
+
+.blog {
+  &-title {
+    font-family: $font-heading;
+    font-size: 1.8em;
+    margin: 10px 70px 20px;
+    text-align: left;
+    color: rgb(155, 135, 170);
+    border-bottom: 2px solid indigo;
+  }
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  .article {
+    border-radius: 6px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: left;
+
+    &:hover {
+      background-color: #fff5f8;
+    }
+
+    &-title {
+      font-family: $font-heading;
+      font-weight: bold;
+      font-size: 1.4em;
+      text-transform: uppercase;
+      line-height: 1.4em;
+    }
+
+    &-tag {
+      font-family: $font-heading;
+      display: inline-block;
+      background-color: indigo;
+      color: white;
+      padding: .5rem;
+      border-radius: 3px;
+      margin-bottom: .5rem;
+    }
+
+    p {
+      font-size: .8em;
+      line-height: 1.6em;
+      color: rgb(37, 37, 37);
+      font-family: $font-labeur;
+    }
+  }
+
+}
